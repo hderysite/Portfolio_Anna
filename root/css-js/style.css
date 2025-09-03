@@ -38,7 +38,6 @@ header{
     backdrop-filter: blur(10px);
     display: grid;
     grid-template-columns: auto 1fr auto;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
@@ -114,3 +113,74 @@ span {
 .gradient-btn:hover {
     transform: scale(1.05);
 }
+
+section{
+    min-height: 100vh;
+    padding: 18rem 12%;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 90px;
+}
+
+.home-content h1{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+
+.home-content h3 {
+    margin: 0.2rem 0 1rem 0;
+    font-size: 2.5rem;
+}
+
+.home-content p{
+    font-size: 1.4rem;
+    font-weight: 500px;
+    line-height: 1.8;
+}
+
+.home-img img{
+    width: 25vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    transition: 0.4s ease-in-out;
+}
+
+.home-img img:hover {
+    box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color), 0 0 100px var(--main-color);
+}
+
+.resume {
+    padding-top: 14px;
+}
+
+.btn-resume {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-resume:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
+}
+
