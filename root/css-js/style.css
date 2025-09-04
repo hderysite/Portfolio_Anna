@@ -194,6 +194,7 @@ section{
 }
 
 .about-img img {
+    border-radius: 25px;
     width: 25vw;
     border: 50%;
     box-shadow: 0 0 25px var(--main-color);
